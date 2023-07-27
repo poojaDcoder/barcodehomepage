@@ -1,0 +1,80 @@
+/* Main Styles */
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgb(247, 199, 70),rgba(400,500, 208, 0.55)),
+ url(https://boxshot.com/barcode/tutorials/transparent-barcodes/transparent-barcode-5@1x.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:rgba(0, 0, 0, 0.651);
+  font-size:xx-large;
+  font-weight: bolder;
+  
+  
+}
+
+
+
+/* Header Styles */
+.mheader {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+ 
+}
+
+/* Download Button Styles */
+.mdownload {
+  background-color: #afa54c;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+}
+
+.mdownload:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Edit Button Styles */
+.medit {
+  background-color: #fff;
+  border: 2px solid #3498db;
+  border-radius: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #3498db;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s, box-shadow 0.2s;
+}
+
+.medit:hover {
+  background-color: #3498db;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* Media Query */
+@media (min-width: 768px) {
+  .medit {
+    font-size: 20px;
+    padding: 15px 35px;
+  }
+}
+
+

@@ -1,0 +1,153 @@
+/* Custom Theme */
+:root {
+  --primary-color: #1e293b;
+  --secondary-color: #16a3ce;
+  --text-color: #f5f5f5;
+  --button-bg-color: #2ea44f;
+  --button-hover-bg-color: #2c974b;
+  --button-active-bg-color: #298e46;
+  --form-bg-color: #fff;
+  --form-border-color: #ccc;
+  --form-shadow-color: rgba(0, 0, 0, 0.3);
+  --template-bg-color: #f4b0d8b0;
+}
+
+/* Shared Styles */
+.cmain {
+  background-color: var(--template-bg-color);
+}
+
+.ctitle {
+  font-size: 27px;
+  color: var(--text-color);
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
+
+.cnav {
+  background: var(--secondary-color);
+  height: 60px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.capture-container {
+  /* Shared styles for both templates */
+  margin-top: 20px;
+}
+
+.fixed-buttons {
+  /* Shared styles for both templates */
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-popup {
+  /* Shared styles for both templates */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--form-bg-color);
+  padding: 20px;
+  border: 1px solid var(--form-border-color);
+  box-shadow: 0 2px 5px var(--form-shadow-color);
+  z-index: 9999;
+}
+
+.form-popup h3 {
+  margin-top: 0;
+}
+
+.form-popup label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-popup input,
+.form-popup textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form-popup textarea {
+  height: 100px;
+}
+
+.image-preview {
+  text-align: center;
+}
+
+.image-preview img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Template One Styles */
+.cmain.templateOne {
+  /* Template One specific styles */
+}
+
+.cmain.templateOne h3 {
+  /* Template One specific styles for h3 element */
+  color: var(--primary-color);
+}
+
+.cmain.templateOne p {
+  /* Template One specific styles for p element */
+  color: var(--text-color);
+}
+
+.cmain.templateOne button {
+  /* Template One specific styles for button element */
+  background-color: var(--button-bg-color);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.cmain.templateOne button:hover {
+  background-color: var(--button-hover-bg-color);
+}
+
+.cmain.templateOne button:active {
+  background-color: var(--button-active-bg-color);
+}
+
+/* Template Two Styles */
+.cmain.templateTwo {
+  /* Template Two specific styles */
+}
+
+.cmain.templateTwo h3 {
+  /* Template Two specific styles for h3 element */
+  color: var(--secondary-color);
+}
+
+.cmain.templateTwo p {
+  /* Template Two specific styles for p element */
+  color: var(--text-color);
+}
+
+.cmain.templateTwo button {
+  /* Template Two specific styles for button element */
+  background-color: var(--button-bg-color);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.cmain.templateTwo button:hover {
+  background-color: var(--button-hover-bg-color);
+}
+
+.cmain.templateTwo button:active {
+  background-color: var(--button-active-bg-color);
+}
+
+/* ... (rest of the styles remain the same) */
